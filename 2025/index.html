@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Zhao NLP Lab</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/clean-blog.css" rel="stylesheet">
+  <link href="../css/custom.css" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../js/clean-blog.min.js"></script>
+  <script>
+    $(function () {
+      $("#navbarResponsive").load("nav.html?cache=123");
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar  navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">Zhao NLP Lab</a>
+      <button class="navbar-toggler navbar-toggler-right text-white" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header / Hero -->
+  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Zhao NLP Lab</h1>
+            <span class="subheading">
+              Natural Language Processing & AI for Science
+            </span>
+            <p class="mt-3 lead" style="font-size: 1.1rem;">
+              We study how large language models understand, generate, and evaluate scientific text, 
+              with a focus on multilinguality, reliability, and human-centered evaluation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <!-- About the Lab -->
+        <section id="about">
+          <h2 class="section-heading">About the Lab</h2>
+          <p>
+            The <strong>Zhao NLP Lab</strong> explores natural language processing and large language models
+            with an emphasis on how AI can support and transform the scientific process. Our research spans
+            figure-to-text generation, scientific summarization, multilingual evaluation, and methods for
+            making model behavior more transparent and controllable.
+          </p>
+          <p>
+            We work at the intersection of <strong>language technologies</strong>, <strong>human-centered
+            evaluation</strong>, and <strong>scientific communication</strong>, building datasets, tools, and
+            benchmarks that enable more robust and accessible AI systems for researchers and practitioners across domains.
+          </p>
+        </section>
+
+        <hr>
+        <!-- (Next sections like Research Themes, Highlights, etc. will go here) -->
+
+
+        <!-- Research Themes Section -->
+        <section id="research-themes">
+          <h2 class="section-heading">Research Themes</h2>
+
+          <!-- Theme Card -->
+          <div class="card mb-4 theme-card">
+            <!-- <div class="card-header d-flex justify-content-between align-items-center"
+                data-toggle="collapse" data-target="#theme1" style="cursor: pointer;"> -->
+            <div class="card-header collapsed d-flex justify-content-between align-items-center" 
+                    data-toggle="collapse" data-target="#theme1" style="cursor: pointer;">
+              <h5 class="mb-0">LLMs & the Scientific Process</h5>
+              <i class="fas fa-chevron-right rotate-icon"></i>
+            </div>
+
+            <div id="theme1" class="collapse">
+              <div class="card-body">
+                <p>
+                  We investigate how large language models can support scientific workflows,
+                  including figure-to-text generation, error detection, summarization of scientific
+                  findings, and tools for enhancing the reproducibility of research.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate this block for additional research themes -->
+          <div class="card mb-4 theme-card">
+            <!-- <div class="card-header d-flex justify-content-between align-items-center"
+                data-toggle="collapse" data-target="#theme2" style="cursor: pointer;"> -->
+            <div class="card-header collapsed d-flex justify-content-between align-items-center" data-toggle="collapse" data-target="#theme2"
+                aria-expanded="false" aria-controls="theme2"
+                style="cursor: pointer;">
+              <h5 class="mb-0">Cross-Temporality of LLMs</h5>
+              <i class="fas fa-chevron-right rotate-icon"></i>
+            </div>
+
+            <div id="theme2" class="collapse">
+              <div class="card-body">
+                <p>
+                  Temporality is a foundation for dependable reasoning. This, however, is a property of
+                  AI models that has been understudied. We focus on research at the frontier of the current
+                  understanding and evaluation of the temporal reasoning ability of Large Language Models.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4 theme-card">
+            <!-- <div class="card-header d-flex justify-content-between align-items-center"
+                data-toggle="collapse" data-target="#theme3" style="cursor: pointer;"> -->
+            <div class="card-header collapsed d-flex justify-content-between align-items-center"
+                data-toggle="collapse" data-target="#theme3" aria-expanded="false" aria-controls="theme3"
+                style="cursor: pointer;">
+
+              <h5 class="mb-0">Evaluation, Benchmarks & Reliability</h5>
+              <i class="fas fa-chevron-right rotate-icon"></i>
+            </div>
+
+            <div id="theme3" class="collapse">
+              <div class="card-body">
+                <p>
+                  We develop structured benchmarks and human-in-the-loop evaluation workflows to
+                  study model errors, interpretability, and robustness. This includes datasets for
+                  scientific figures, numerical reasoning, and multi-step inference.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+                <hr>
+
+        <!-- Highlights / News -->
+        <section id="highlights">
+          <h2 class="section-heading">Highlights</h2>
+
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <span class="badge badge-dark mr-2">2025</span>
+              <strong>New multilingual scientific figure description dataset released.</strong>
+              <br>
+              <small>We release a benchmark for figure-to-text generation across four languages, with human-verified annotations and error analysis tools.</small>
+            </li>
+
+            <li class="mb-3">
+              <span class="badge badge-secondary mr-2">2025</span>
+              <strong>Paper accepted at a major NLP conference.</strong>
+              <br>
+              <small>Work on evaluating LLMs for numerical reasoning over scientific figures is accepted for presentation.</small>
+            </li>
+
+            <li class="mb-3">
+              <span class="badge badge-secondary mr-2">2024</span>
+              <strong>New PhD and MSc projects on AI for scientific communication.</strong>
+              <br>
+              <small>We are growing our team with projects on multilingual evaluation, interpretability, and scientific workflows.</small>
+            </li>
+          </ul>
+        </section>
+
+        <hr>
+
+        <!-- Featured Projects -->
+        <section id="featured-projects">
+          <h2 class="section-heading">Featured Projects</h2>
+
+          <!-- Project 1 -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-1">Multilingual Scientific Figure Description</h5>
+              <p class="card-text">
+                A benchmark dataset and annotation pipeline for evaluating how LLMs describe scientific figures
+                (line plots, bar charts, pie charts) across multiple languages.
+              </p>
+              <a href="project_figure_description.html" class="card-link">Learn more &raquo;</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-1">LLMs for Scientific Workflows</h5>
+              <p class="card-text">
+                Studying how large language models can assist with summarization, error detection, and
+                reproducibility in end-to-end scientific pipelines.
+              </p>
+              <!-- Placeholder link -->
+              <a href="#" class="card-link">Learn more &raquo;</a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title mb-1">Multilingual Evaluation & Low-Resource NLP</h5>
+              <p class="card-text">
+                Building evaluation datasets and methods for languages beyond English, enabling cross-lingual
+                scientific analysis and accessible AI tools.
+              </p>
+              <!-- Placeholder link -->
+              <a href="#" class="card-link">Learn more &raquo;</a>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+
+        <!-- Team (Landing Page Overview) -->
+        <section id="team">
+          <h2 class="section-heading">Team</h2>
+
+          <h5>Principal Investigator</h5>
+          <div class="row mb-4">
+
+            <!-- PI -->
+            <div class="col-md-6 mb-3">
+              <div class="d-flex align-items-center">
+                <img src="img/team/wei_zhao.jpg" alt="Dr Wei Zhao" class="team-photo mr-3">
+                <div>
+                  <strong>Dr Wei Zhao</strong><br>
+                  <small>Principal Investigator</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <h5>PhD Researchers</h5>
+          <div class="row mb-4">
+
+            <!-- Yujun Wang -->
+            <div class="col-md-6 mb-3">
+              <div class="d-flex align-items-center">
+                <img src="img/team/yujun_wang.jpg" alt="Yujun Wang" class="team-photo mr-3">
+                <div>
+                  <strong>Yujun Wang</strong><br>
+                  <small>PhD Researcher</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Owusu-Banahene Osei -->
+            <div class="col-md-6 mb-3">
+              <div class="d-flex align-items-center">
+                <img src="img/team/owusu_osei.jpg" alt="Owusu-Banahene Osei" class="team-photo mr-3">
+                <div>
+                  <strong>Owusu-Banahene Osei</strong><br>
+                  <small>PhD Researcher</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Optional: link to a dedicated people page -->
+          <!-- <p><a href="people.html" class="underline">View full team &raquo;</a></p> -->
+        </section>
+
+
+        <hr>
+
+        <!-- Sponsors -->
+        <section id="sponsors">
+          <h2 class="section-heading">Sponsors</h2>
+
+          <div class="row sponsor-panel text-center">
+            <div class="col-lg-6 mx-auto mb-3">
+              <a href="https://aij.ijcai.org/" target="blank">
+                <img src="img/aij_logo.jpg" class="sponsor-logo" alt="AIJ Logo">
+              </a>
+            </div>
+            <!-- Add more sponsors/logos as needed -->
+            <!--
+            <div class="col-lg-6 mx-auto mb-3">
+              <a href="SPONSOR_LINK" target="blank">
+                <img src="img/SPONSOR_LOGO.png" class="sponsor-logo" alt="Sponsor Name">
+              </a>
+            </div>
+            -->
+          </div>
+        </section>
+
+        </div>
+        </div>
+        </div>
+
+  <hr>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:xtempllms@gmail.com">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">
+            Copyright &copy; Zhao NLP Lab 2025<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
